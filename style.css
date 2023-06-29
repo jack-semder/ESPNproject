@@ -32,3 +32,19 @@
     background-color: #ffab66; /* Softened ESPN Orange */
   }
   
+  .horizontal-scroller {
+    width: 100%;
+    overflow-x: scroll;
+  }
+  
+  .scroll-content {
+    display: flex;
+    white-space: nowrap;
+    padding: 10px; /* Optional: Add padding to the scrollable area */
+  }
+  
+  .scroll-content li {
+    display: inline-block;
+    margin-right: 50px; /* Optional: Add margin between the list items */
+  }
+  
